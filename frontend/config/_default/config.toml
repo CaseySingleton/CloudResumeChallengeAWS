@@ -1,0 +1,72 @@
+baseURL = "https://example.org/"
+languageCode = "en-us"
+title = "Casey Singleton"
+theme = "papermod"
+enableInlineShortcodes = true
+enableRobotsTXT = true
+buildDrafts = false
+buildFuture = false
+buildExpired = false
+enableEmoji = true
+pygmentsUseClasses = true
+mainsections = [ "posts" ]
+
+[minify]
+disableXML = true
+
+[languages.en]
+languageName = "English"
+weight = 1
+
+  [languages.en.taxonomies]
+  category = "categories"
+  tag = "tags"
+  series = "series"
+
+[[menu.main]]
+name = "Site Code"
+url = "https://github.com/CaseySingleton/CloudResumeChallengeAWS"
+weight = 1
+
+[[menu.main]]
+name = "Home"
+# url = "/"
+weight = 3
+
+[params.profileMode]
+enabled = true
+imageUrl = "/images/lol.gif"
+imageTitle = "me rn"
+imageWidth = 160
+imageHeight = 160
+
+  [[params.profileMode.buttons]]
+  name = "Resume"
+  url = "posts/resume"
+
+  [[params.profileMode.buttons]]
+  name = "Blog"
+  url = "posts/blog"
+
+  [[params.profileMode.buttons]]
+  name = "Contact Info"
+  url = "posts/blog"
+
+[[params.socialIcons]]
+name = "Github"
+url = "https://github.com/CaseySingleton"
+
+[[params.socialIcons]]
+name = "dev"
+url = "https://dev.to/caseysingleton"
+
+[[params.socialIcons]]
+name = "Linkedin"
+url = "https://www.linkedin.com/in/caseyjs"
+
+[[params.socialIcons]]
+name = "Email"
+url = "caseyj.singleton@gmail.com"
+
+[outputs]
+home = [ "HTML", "RSS", "JSON" ]
