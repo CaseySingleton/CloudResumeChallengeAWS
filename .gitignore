@@ -2,9 +2,9 @@
 # Hugo
 # ------------------------------------------------------------------------------
 # Generated files by hugo
-**/frontend/public/
-**/frontend/resources/_gen/
-**/frontend/assets/jsconfig.json
+frontend/public/
+frontend/resources/_gen/
+frontend/assets/jsconfig.json
 hugo_stats.json
 
 # Executable may be added to repository
