@@ -1,0 +1,64 @@
+baseURL: https://example.org/
+languageCode: en-us
+title: Casey Singleton
+theme: papermod
+
+enableInlineShortcodes: true
+enableRobotsTXT: true
+buildDrafts: false
+buildFuture: false
+buildExpired: false
+enableEmoji: true
+pygmentsUseClasses: true
+mainsections: ["posts"]
+
+minify:
+    disableXML: true
+
+languages:
+    en:
+        languageName: "English"
+        weight: 1
+        taxonomies:
+            category: categories
+            tag: tags
+            series: series
+
+menu:
+    main:
+        - name: Site Code
+          url: "https://github.com/CaseySingleton/CloudResumeChallengeAWS"
+          weight: 1
+        - name: Search
+          url: posts/search
+          weight: 2
+          
+
+params:
+    profileMode:
+        enabled: true
+        # title: "Casey Singleton"
+        # subtitle: "Check out my socials!"
+        imageUrl: "/images/lol.gif" # optional
+        imageTitle: "Sad Cat" # optional
+        imageWidth: 160 # custom size
+        imageHeight: 160 # custom size
+        buttons:
+            - name: Resume
+              url: posts/resume
+            - name: Portfolio
+              url: posts/portfolio
+            - name: Blog
+              url: posts/blog
+
+    socialIcons: # optional
+        - name: "Github"
+          url: "https://github.com/CaseySingleton"
+        - name: "Linkedin"
+          url: "https://www.linkedin.com/in/caseyjs"
+
+outputs:
+  home:
+    - HTML
+    - RSS
+    - JSON # necessary for search
