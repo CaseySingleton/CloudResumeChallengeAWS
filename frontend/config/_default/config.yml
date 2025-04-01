@@ -32,15 +32,18 @@ menu:
         - name: Search
           url: posts/search
           weight: 2
+        - name: Home
+          url: /
+          weight: 3
           
 
 params:
     profileMode:
         enabled: true
         # title: "Casey Singleton"
-        # subtitle: "Check out my socials!"
+        # subtitle: "caseyj.singleton@gmail.com"
         imageUrl: "/images/lol.gif" # optional
-        imageTitle: "Sad Cat" # optional
+        imageTitle: "me rn" # optional
         imageWidth: 160 # custom size
         imageHeight: 160 # custom size
         buttons:
@@ -49,6 +52,8 @@ params:
             - name: Portfolio
               url: posts/portfolio
             - name: Blog
+              url: posts/blog
+            - name: Contact Info
               url: posts/blog
 
     socialIcons: # optional
