@@ -1,18 +1,18 @@
 ---
 # date: '2025-03-31T19:41:12-07:00'
-title: Casey Singleton Resume
+# title: Casey Singleton Resume
 # description: My Resume
 draft: true
 ---
 
-### Skills and Technologies
+## Skills and Technologies
 
 **Certifications:** AWS Certified Cloud Practitioner (**CLF-C02**)  
 **Languages:** C, C++, Java, Python, Go, JavaScript, SQL  
 **Platforms and Tools:** Linux, Windows, Git, Hugo, Jira, Visual Studio  
 **Cloud and DevOps:** AWS, Docker  
 **Soft Skills:** Team collaboration, Learning fast, Googling well, Adaptability
-
+___
 ## Work Experience
 ### Corelation INC - Software Engineer, Jun 2021 - Mar 2024  
 - Developed and deployed custom C++ solutions to migrate Credit Unions from legacy banking cores to the Keystone platform, adhering to strict OOP standards and maintaining zero-tolerance for error.  
@@ -33,7 +33,12 @@ draft: true
 - Calibrated equipment in compliance with IOS labratory and medical standards.  
 - Performed preventative maintenance to extend longevity and ensure optimal performance.  
 - Communicated directly with clients to assess repair needs, recommend solutions, and schedule service calls.  
-
-### Education  
+___
+## Education  
 Computer Science, **42 School Silicon Valley**, Fremont CA, 2018 - 2022  
 Computer Science, **MiraCosta Community College**, Oceanside CA, 2016 - 2018  
+___
+## References
+Available upon request. Feel free to contact me via [Email](mailto:caseyj.singleton@gmail.com) or on [Linkedin][1].  
+
+[1]: <https://www.linkedin.com/in/caseyjs/>

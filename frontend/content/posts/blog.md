@@ -4,3 +4,7 @@ title: 'Blog'
 description: 'Personal Blog'
 draft: true
 ---
+
+🛑👷‍♂️🛑 UNDER CONSTRUCTION 🛑👷‍♂️🛑  
+Here's something to look at  
+![he be werkin](/images/computer_cat.gif)
