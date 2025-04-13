@@ -24,4 +24,4 @@
 ### Terraform - CI/CD Pipeline
 - [ ] Connect with GitHub actions
 - [ ] Automated updates to S3 hosted static site when changes are pushed
-- []  Not sure yet
+- [ ]  Not sure yet
