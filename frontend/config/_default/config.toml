@@ -35,12 +35,12 @@ weight = 2
 
 [[menu.main]]
 name = "Resume"
-url = "/posts/resume"
+url = "/resume"
 weight = 3
 
 [[menu.main]]
 name = "Blog"
-url = "/posts/blog"
+url = "/blog"
 weight = 4
 
 [params.profileMode]
@@ -52,15 +52,15 @@ imageHeight = 160
 
   [[params.profileMode.buttons]]
   name = "Resume"
-  url = "posts/resume"
+  url = "/resume"
 
   [[params.profileMode.buttons]]
   name = "Blog"
-  url = "posts/blog"
+  url = "/blog"
 
   [[params.profileMode.buttons]]
   name = "Something Else"
-  url = "posts/blog"
+  url = "/blog"
 
 [[params.socialIcons]]
 name = "Github"
