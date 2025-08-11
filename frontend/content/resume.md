@@ -2,10 +2,7 @@
 # date: '2025-03-31T19:41:12-07:00'
 # title: Casey Singleton Resume
 # description: My Resume
-<<<<<<< HEAD:frontend/content/posts/resume.md
 url: /resume
-=======
->>>>>>> 88621f39249b9e62795ff6fa029c181e78592abe:frontend/content/resume.md
 draft: false
 ---
 
